@@ -1,0 +1,9 @@
+import { createClient } from "@/supabase/server";
+
+export default async function Notes() {
+  const supabase = await createClient();
+  const { data: notes } = await supabase.from("notes").select();
+  console.log("Notes from database:", notes);
+
+  return <pre>{JSON.stringify(notes, null, 2)}</pre>;
+}
