@@ -1,0 +1,22 @@
+// Colors
+$primary-color: #4285f4;
+$secondary-color: #34a853;
+$error-color: #dc3545;
+$success-color: #28a745;
+
+// Typography
+$font-family-base: "Inter", sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.5;
+
+// Spacing
+$spacing-unit: 8px;
+$container-padding: 20px;
+
+// Breakpoints
+$breakpoints: (
+  "small": 576px,
+  "medium": 768px,
+  "large": 992px,
+  "xlarge": 1200px,
+);
